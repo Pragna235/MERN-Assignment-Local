@@ -5,9 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
         
         const userData = data.map(user => `
             <tr>
-            <td>${user.Id}</td>
-            <td>${user.Name}</td>
-            <td>${user.Character}</td>
+            <td>${user.id}</td>
+            <td>${user.title}</td>
+            <td>${user.price}</td>
+            <td>${user.discountPercentage}</td>
+            <td>${user.rating}</td>
+            <td>${user.stock}</td>
             </tr>
         `).join('' );
 
